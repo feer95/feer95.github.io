@@ -1,132 +1,386 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>FS</title>
-</head>
-<body>
-    <header class="header">
-        <h2 class="logo"> F <span class="letra">S</span></h2>
-        <div class="btns">
-            <a href="#" class="inicioBtn">INICIO</a>
-            <a href="#seccion-1" class="inicioBtn">SKILLS</a>
-            <a href="#seccion-2" class="inicioBtn">PROYECTOS</a>
-            <a href="#seccion-3" class="inicioBtn">CONTACTO</a>
-        </div>
-    </header>
-    <main class="principal"> <!--  Seccion Home -->
-        <section class="first">
-            <h2 class="nombre"><span class="thumb">👋🏻</span> Hola, soy<span class="myName"> Fernando</span></h2>
-            <p class="presentacion">Me apasiona la programación y el diseño web. Disfruto aportando soluciones creativas para resolver problemas y mejorar la experiencia del usuario. </p>
-            <p class="presentacion">Si estás buscando alguien que pueda ayudarte con tus proyectos de programación y diseño web, no dudes en ponerte en contacto conmigo. Estoy seguro de que juntos podemos llevar tus ideas al siguiente nivel.</p>
-            <div class="curriculum"><button class="btnCurriculum" >Descarga mi CV</button></div>
-        </section>
-        <section class="second">
-            <img src="Imagenes /imagen1.png" alt="" class="image1">
-        </section>
-    </main>
-    <div class="contenedor"> <!--  Seccion skills -->
-    <div class="skills1" id="seccion-1">
-        <p class="imageHtml">60 %</p>
-        <p class="imageCss">70 %</p>
-        <p class="imageJs">50 %</p>
-        <img src="Imagenes /html.png" alt="" class="imagen2">
-        <img src="Imagenes /css.png" alt="" class="imagen2">
-        <img src="Imagenes /js.png" alt="" class="imagen2">
-    </div>
-    <div class="skills2">
-        <p class="imageAngular">45 %</p>
-        <p class="imageNode">65 %</p>
-        <p class="imageSql">55 %</p>
-        <img src="Imagenes /angular.png" alt="" class="imagen3">
-        <img src="Imagenes /node.png" alt="" class="imagen3">
-        <img src="Imagenes /sql.png" alt="" class="imagen3"> 
-    </div>
-    <h2 class="titulo2">SKILLS</h2>
-    </div>
-    <h2 class="titulo3" id="seccion-2">PROYECTOS</h2>
-    <section class="proyectos"> <!--  Seccion Proyectos -->
-        <div class="proy1"> 
-            <h3 class="titulosProy">Proy1</h3>
-            <a target="_blank" > 
-              <img class="proyImage" src="Imagenes /imgProyects.png" alt="">
-            </a>
-            <div class="desc">
-              <a href="https://github.com/tu-usuario" target="_blank">
-                <button class="btnGit">GitHub</button>
-              </a>
-            </div>
-          </div>
-          <div class="proy2">
-            <h3 class="titulosProy">Proy2</h3>
-            <a target="_blank">
-              <img class="proyImage" src="Imagenes /imgProyects.png">
-            </a>
-            <div class="desc">
-              <a href="https://github.com/tu-usuario" target="_blank">
-                <button class="btnGit">GitHub</button>
-              </a>
-            </div>
-          </div>
-          <div class="proy3">
-            <h3 class="titulosProy">Proy3</h3>
-            <a target="_blank" >
-              <img class="proyImage" src="Imagenes /imgProyects.png">
-            </a>
-            <div class="desc">
-              <a href="https://github.com/tu-usuario" target="_blank">
-                <button class="btnGit">GitHub</button>
-              </a>
-            </div>
-          </div>
-          <div class="proy4">
-            <h3 class="titulosProy">Proy4</h3>
-            <a target="_blank" >
-              <img class="proyImage" src="Imagenes /imgProyects.png">
-            </a>
-            <div class="desc">
-              <a href="https://github.com/tu-usuario" target="_blank">
-                <button class="btnGit">GitHub</button>
-              </a>
-            </div>
-          </div>
-    </section>
-    <section class="contacto" id="seccion-3"> <!--  Seccion Contacto -->
-        <h2 class="titulo4">CONTACTO</h2>
-        <form class="formulario">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required> 
-        
-            <label for="apellidos">Compañia:</label>
-            <input type="text" id="apellidos" name="apellidos" required>
-        
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="8" required></textarea>
-        
-            <button class="btnEnviar" type="submit">Enviar</button>
-          </form>
-    </section>
-    <footer>
-        <h2 class="logo2"> F <span class="letra">S</span></h2>
-        <div class="copy">
-          <div class="logosFoot">
-            <i class="fa-brands fa-linkedin-in" style="color: #9ccc9c;"></i>
-            <i class="fa-brands fa-instagram" style="color: #9ccc9c;"></i>
-            <i class="fa-brands fa-github" style="color: #9ccc9c;"></i>
-          </div>
-            <p class="texto"> <span class="logoCopy">©</span>  2023 Todos los derechos reservados.</p>
-        </div>
-        <div class="enlaces">
-            <a href="#" class="footerBtn">INICIO</a>
-            <a href="#" class="footerBtn">SKILLS</a>
-            <a href="#" class="footerBtn">PROYECTOS</a>
-            <a href="#" class="footerBtn">CONTACTO</a>
-        </div>
-    </footer>
+<!DOCTYPE HTML>
 
-</body>
+<html>
+	<head>
+		<title>Hi! 👋🏻</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<img class="logo" src="images/pfp.png" alt="" />
+
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1 class="saludo">Hi! Im <span class="name1">F</span>ernando <span class="name1">F</span>ernández</h1>
+								<div class="caja">
+									<p class="texto">
+									  Full Stack Developer, Web & App designer. 
+									</p>
+								  </div>
+								  <script>
+									const caja = document.querySelector(".caja");
+									const texto = document.querySelector(".texto");
+									const letras = texto.textContent.split("");
+									const velocidad = 70; 
+								
+									function moverCursor(letra) {
+									  texto.textContent += letra;
+									  texto.scrollLeft += texto.clientWidth / letras.length;
+									}
+								
+									for (let i = 0; i < letras.length; i++) {
+									  setTimeout(function() {
+										moverCursor(letras[i]);
+									  }, i * velocidad);
+									}
+									texto.textContent = "";
+								  </script>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Intro</a></li>
+								
+								<li><a href="#about">CV</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Intro</h2>
+								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								<h3 class="title-pop">A short description of myself</h3>
+								<p>Im a 28 years old, entrepeneur, techlover. Although it was not my profession, I believe that technology is a very important growing sector that can help improve people's lives. After the pandemic, I changed profession since I had the opportunity. I have spent two years working in the blockchain ecosystem while training as a fullstack developer.</p>
+								<p>In the meantime I have been working as a car mechanic for a multinational company. I have repaired every car model you can imagine, from a simple car to a Lamborghini. 
+									In 2019 I found myself in a situation that needed to be improved. My job cannot depend exclusively on going to a physical location. 
+									This together with the logic that has given me working with cars and knowing that everything has a process, made me decide to go into the world of programming and technology.</p>
+								<p>In 2020 I created my first website (which was a failure) but I learned a lot about wordpress development and when I saw that it was not so simple, I decided to train myself.
+									At the end of 2020 I luckily joined a blockchain development academy and after the training they hired me and I worked with them for more than two years. 
+									While working with them I decided that I wanted to continue with it and so, I entered a training as a full stack programmer which I finished in July 2023. 
+									Since then, I have dedicated myself to help my environment to develop their projects, freelance work and to keep learning.</p>	
+									<h3 class="title-pop">My skills</h3>
+									<div class="skills">
+										<i class="fa-brands fa-html5"></i>
+									<progress class="progress" value="91" max="100"></progress>
+									<i class="fa-brands fa-css3-alt"></i>
+									<progress class="progress" value="75" max="100"></progress>
+									</div>
+									<div class="skills">
+										<i class="fa-brands fa-js"></i>
+									<progress class="progress" value="63" max="100"></progress>
+									<i class="fa-brands fa-angular"></i>
+									<progress class="progress" value="72" max="100"></progress>
+									</div>
+									<div class="skills">
+										<i class="fa-brands fa-node"></i>
+									<progress class="progress" value="81" max="100"></progress>
+									<i class="fa-brands fa-github"></i>
+									<progress class="progress" value="83" max="100"></progress>
+									</div>
+									<div class="skills">
+										<i class="fa-brands fa-bitcoin"></i>
+									<progress class="progress" value="91" max="100"></progress>
+									<i class="fa-brands fa-ethereum"></i>
+									<progress class="progress" value="93" max="100"></progress>
+									</div>
+									<h3 class="title-pop">See my <a class="git-btn" href="https://github.com/feer95">Github</a></h3>
+							</article>
+
+						
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">About</h2>
+								<span class="image main"><img src="images/CV.png" alt="" /></span>
+								<span class="image main"><img src="images/CV.1.png" alt="" /></span>
+								<a href="images/CV.pdf" target="_blank" class="button icon solid fa-download">Download</a>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h3 class="title-pop-wa">¡Leave me a message!</h3>
+								<ul class="icons">
+									<li><a href="https://wa.me/0034659866583" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Download</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Fernando Fernández Sánchez </p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
