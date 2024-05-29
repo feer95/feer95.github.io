@@ -276,9 +276,9 @@ canvas {
 /* ---- particles.js container ---- */
 #particles-js {
     position: absolute;
-    width: 100%;
+    width: 100vw;
     right: 0;
-    height: 100%;
+    height: 100vh;
     background-color: #dddbdb;
     background-image: url("");
     background-repeat: no-repeat;
