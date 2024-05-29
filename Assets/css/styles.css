@@ -1467,6 +1467,10 @@ textarea.input {
         font-size: var(--h1-font-size);
     }
 
+    .home__subtitle {
+        font-size: var(--h2-font-size);
+    }
+
     .home__container{
         row-gap: 2rem;
     }
