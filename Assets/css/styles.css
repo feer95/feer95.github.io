@@ -1468,16 +1468,12 @@ textarea.input {
     }
 
     .home__subtitle {
-        font-size: var(--h2-font-size);
+        font-size: var(--normal-font-size);
     }
 
     .home__container{
         row-gap: 2rem;
     }
-
-    
-
-    
 
     .home__social-link {
         font-size: var(--normal-font-size);
@@ -1522,7 +1518,7 @@ textarea.input {
     }
 
     .home__subtitle {
-        font-size: var(--h2-font-size);
+        font-size: var(--normal-font-size);
     }
 
     .home__social-links {
