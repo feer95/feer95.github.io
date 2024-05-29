@@ -1522,7 +1522,7 @@ textarea.input {
     }
 
     .home__subtitle {
-        font-size: var(--normal-font-size);
+        font-size: var(--h2-font-size);
     }
 
     .home__social-links {
